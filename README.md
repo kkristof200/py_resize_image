@@ -21,9 +21,9 @@ Resize/paste images easily keeping their aspect ratio
 ## Install
 
 ~~~~bash
-pip install pil-resize-aspect-ratio
+pip install pil_resize_aspect_ratio
 # or
-pip3 install pil-resize-aspect-ratio
+pip3 install pil_resize_aspect_ratio
 ~~~~
 
 ## Usage
