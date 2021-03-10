@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='pil_resize_aspect_ratio',
-    version='0.0.6',
+    version='0.0.7',
     author='Kristóf-Attila Kovács',
     description='pil_resize',
     long_description=long_description,
@@ -18,7 +18,7 @@ setuptools.setup(
     url='https://github.com/kkristof200/py_resize_image',
     packages=setuptools.find_packages(),
     install_requires=[
-        'noraise>=0.0.9',
+        'noraise>=0.0.10',
         'Pillow>=8.1.0'
     ],
     classifiers=[
