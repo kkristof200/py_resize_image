@@ -110,9 +110,10 @@ class Resizer:
         path: str
     ) -> bool:
         out_file = open(path, 'wb')
+        format = path.split('.')[-1].lower().replace('jpg', 'jpeg')
 
-        if path.lower().endswith('.png'):
-            image.save(out_file, path)
+        if format == 'png':
+            image.save(out_file, format)
         else:
             image.convert('RGB').save(out_file, path.split('.')[-1].lower().replace('jpg', 'jpeg'))
 
